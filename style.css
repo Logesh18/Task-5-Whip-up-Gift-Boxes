@@ -1,0 +1,74 @@
+html{
+    min-height:100%;
+    background:rgb(172, 172, 172);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:radial-gradient(circle, rgb(192, 3, 120), rgb(83, 23, 122));
+    padding:50px 50px 30px 50px;
+    min-height: 87vh;
+    /* overflow: hidden; */
+}
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size:50px;
+}
+
+#outline{
+    padding:3% 0 0 0; 
+}
+#gifts, #submit{
+    border-radius:18px; 
+    border:none; 
+    padding:3px 20px 3px 20px;
+    box-shadow: 10px 10px 8px #141414;
+}
+#gifts{
+    height:50px;
+    width:20%;
+    background-color: rgb(230, 120, 211);
+    margin-right:25px;
+    text-align: center;
+}
+#submit{
+    height:55px;
+    width:12%;
+    background-color: rgb(152, 161, 18);
+    margin-left:25px;
+}
+
+::placeholder, #submit {
+    color: rgb(0, 0, 0);
+    font-size:15px;
+    text-decoration: thick;
+    text-align: center;
+  }
+  #card-name{
+     font-size:20px;
+  }
+  #card{
+      background-color:rgb(233, 233, 233);
+      width:100%;
+      min-height:40vh;
+      border:none;
+      padding: 10px -40px 0px 40px;
+  }
+#card-content{
+      padding-left: 30px;
+      margin: 15px 15px 0px 15px;
+      display:grid;
+      grid-row-gap:-20px;
+      grid-column-gap:10px;
+      grid-template-columns: repeat(12, 1fr);
+      
+}
+ #card-element{
+     padding: 20px 0;
+     width:100px;
+     height:60px;
+     position: relative;
+   
+ }
